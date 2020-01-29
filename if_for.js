@@ -1,11 +1,11 @@
 let num = 50;
 
 if (num < 49) {
-    console.log("neverno")
+    console.log("neverno");
 } else if (num > 100) {
-    console.log("mnogo")
+    console.log("mnogo");
 } else {
-    console.log("verno")
+    console.log("verno");
 }
 
 (num = 50) ? console.log("verno"): console.log("neverno");
